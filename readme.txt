@@ -1,4 +1,4 @@
-#Reacror pattern
+# Reacror pattern
 
 In this assignment we created a Reactor (Reactor Design Pattern) that handles multiple client file descriptors (TCP socket) and handles them accordingly, using an handler function for each file descriptor.
 
@@ -11,13 +11,13 @@ In this assignment we created a Reactor (Reactor Design Pattern) that handles mu
    - void WaitFor(void *react) – Joins the reactor thread to the calling thread and wait for the reactor to finish.
    - int server_handler(int fd, void *react) - it does the accept operation and then takes the newly created socket and adds it to the linked list.
 
-##Requirements:
+## Requirements:
 
    - Linux machine (Ubuntu 22.04 LTS preferable)
    - GNU C Compiler
    - Make
    
    
-  ##Running:
+  ## Running:
    ./react_server
 
